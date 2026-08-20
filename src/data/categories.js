@@ -1,0 +1,81 @@
+export const categories = [
+  {
+    id: 'all',
+    name: 'All',
+    icon: 'silverware-fork-knife',
+    iconFamily: 'MaterialCommunityIcons',
+    label: 'Semua',
+  },
+  {
+    id: 'breakfast',
+    name: 'Breakfast',
+    icon: 'egg-fried',
+    iconFamily: 'MaterialCommunityIcons',
+    label: 'Sarapan',
+  },
+  {
+    id: 'lunch',
+    name: 'Lunch',
+    icon: 'food-drumstick',
+    iconFamily: 'MaterialCommunityIcons',
+    label: 'Makan Siang',
+  },
+  {
+    id: 'dinner',
+    name: 'Dinner',
+    icon: 'food-turkey',
+    iconFamily: 'MaterialCommunityIcons',
+    label: 'Makan Malam',
+  },
+  {
+    id: 'dessert',
+    name: 'Dessert',
+    icon: 'cake-layered',
+    iconFamily: 'MaterialCommunityIcons',
+    label: 'Pencuci Mulut',
+  },
+  {
+    id: 'snack',
+    name: 'Snack',
+    icon: 'popcorn',
+    iconFamily: 'MaterialCommunityIcons',
+    label: 'Camilan',
+  },
+  {
+    id: 'indonesian',
+    name: 'Indonesian',
+    icon: 'chili-hot',
+    iconFamily: 'MaterialCommunityIcons',
+    label: 'Nusantara',
+  },
+  {
+    id: 'italian',
+    name: 'Italian',
+    icon: 'pasta',
+    iconFamily: 'MaterialCommunityIcons',
+    label: 'Italia',
+  },
+  {
+    id: 'japanese',
+    name: 'Japanese',
+    icon: 'food-takeout-box',
+    iconFamily: 'MaterialCommunityIcons',
+    label: 'Jepang',
+  },
+  {
+    id: 'healthy',
+    name: 'Healthy',
+    icon: 'leaf',
+    iconFamily: 'MaterialCommunityIcons',
+    label: 'Sehat & Diet',
+  },
+  {
+    id: 'drinks',
+    name: 'Drinks',
+    icon: 'cup-water',
+    iconFamily: 'MaterialCommunityIcons',
+    label: 'Minuman',
+  },
+];
+
+export default categories;
